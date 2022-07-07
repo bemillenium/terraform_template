@@ -37,15 +37,15 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: browsers
+    id: Runner
     attributes:
-      label: What browsers are you seeing the problem on?
+      label: What Terraform runner are you seeing the problem on?
       multiple: true
       options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+        - MacOS
+        - Linux
+        - Windows
+        - Terraform Cloud
   - type: textarea
     id: logs
     attributes:
